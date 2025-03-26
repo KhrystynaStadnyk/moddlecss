@@ -1,17 +1,34 @@
-/* Основний колір кнопок */
+/* Основні кольори: синій і жовтий */
+:root {
+    --primary-color: #0057b7;  /* синій */
+    --secondary-color: #ffd700;  /* жовтий */
+}
+
+/* Кнопки */
 .core-button, .button {
-    background-color: #3498db !important;
-    color: #fff !important;
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    border-radius: 6px;
 }
 
-/* Колір заголовків */
+/* Активні елементи меню */
+.menu-item-selected, .tabbar > ion-tab-button.tab-selected {
+    background-color: var(--secondary-color) !important;
+    color: black !important;
+}
+
+/* Заголовки */
 h1, h2, h3 {
-    color: #2c3e50 !important;
+    color: var(--primary-color) !important;
     font-family: 'Arial', sans-serif !important;
 }
 
-/* Текст у списках */
-li {
+/* Текст */
+p, li, span, div {
     font-family: 'Arial', sans-serif !important;
-    font-size: 16px !important;
+}
+
+/* Акценти */
+a, .link {
+    color: var(--secondary-color) !important;
 }
