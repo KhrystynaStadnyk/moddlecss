@@ -1,0 +1,17 @@
+/* Основний колір кнопок */
+.core-button, .button {
+    background-color: #3498db !important;
+    color: #fff !important;
+}
+
+/* Колір заголовків */
+h1, h2, h3 {
+    color: #2c3e50 !important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+/* Текст у списках */
+li {
+    font-family: 'Arial', sans-serif !important;
+    font-size: 16px !important;
+}
